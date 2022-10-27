@@ -7,13 +7,13 @@
 #define SOFT_DELAY Delay(0x0000FF);
 #define DELAY Delay(0x00FFFF);
 
-/* ¶¨ÒåLEDÁ¬½ÓµÄGPIO¶Ë¿Ú, ÓÃ»§Ö»ÐèÒªÐÞ¸ÄÏÂÃæµÄ´úÂë¼´¿É¸Ä±ä¿ØÖÆµÄLEDÒý½Å */
-#define LED1_GPIO_PORT    	GPIOC		              /* GPIO¶Ë¿Ú */
-#define LED1_GPIO_CLK 	    RCC_APB2Periph_GPIOC		/* GPIO¶Ë¿ÚÊ±ÖÓ */
-#define LED1_GPIO_PIN			GPIO_Pin_2			        
+/* ï¿½ï¿½ï¿½ï¿½LEDï¿½ï¿½ï¿½Óµï¿½GPIOï¿½Ë¿ï¿½, ï¿½Ã»ï¿½Ö»ï¿½ï¿½Òªï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ë¼´ï¿½É¸Ä±ï¿½ï¿½ï¿½Æµï¿½LEDï¿½ï¿½ï¿½ï¿½ */
+#define LED1_GPIO_PORT    	GPIOC		              /* GPIOï¿½Ë¿ï¿½ */
+#define LED1_GPIO_CLK 	    RCC_APB2Periph_GPIOC		/* GPIOï¿½Ë¿ï¿½Ê±ï¿½ï¿½ */
+#define LED1_GPIO_PIN		GPIO_Pin_2			        
 
-#define LED2_GPIO_PORT    	GPIOC			              /* GPIO¶Ë¿Ú */
-#define LED2_GPIO_CLK 	    RCC_APB2Periph_GPIOC		/* GPIO¶Ë¿ÚÊ±ÖÓ */
+#define LED2_GPIO_PORT    	GPIOC			              /* GPIOï¿½Ë¿ï¿½ */
+#define LED2_GPIO_CLK 	    RCC_APB2Periph_GPIOC		/* GPIOï¿½Ë¿ï¿½Ê±ï¿½ï¿½ */
 #define LED2_GPIO_PIN		GPIO_Pin_3			        
 
 
@@ -25,7 +25,7 @@
 #define ON  0
 #define OFF 1
 
-/* Ê¹ÓÃ±ê×¼µÄ¹Ì¼þ¿â¿ØÖÆIO*/
+/* Ê¹ï¿½Ã±ï¿½×¼ï¿½Ä¹Ì¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½IO*/
 #define LED1(a)	if (a)	\
 					GPIO_SetBits(LED1_GPIO_PORT,LED1_GPIO_PIN);\
 					else		\
@@ -39,13 +39,13 @@
 
 
 
-/* Ö±½Ó²Ù×÷¼Ä´æÆ÷µÄ·½·¨¿ØÖÆIO */
-#define	digitalHi(p,i)		 {p->BSRR=i;}	 //Êä³öÎª¸ßµçÆ½		
-#define digitalLo(p,i)		 {p->BRR=i;}	 //Êä³öµÍµçÆ½
-#define digitalToggle(p,i) {p->ODR ^=i;} //Êä³ö·´×ª×´Ì¬
+/* Ö±ï¿½Ó²ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½IO */
+#define	digitalHi(p,i)		 {p->BSRR=i;}	 //ï¿½ï¿½ï¿½Îªï¿½ßµï¿½Æ½		
+#define digitalLo(p,i)		 {p->BRR=i;}	 //ï¿½ï¿½ï¿½ï¿½Íµï¿½Æ½
+#define digitalToggle(p,i) {p->ODR ^=i;} //ï¿½ï¿½ï¿½ï¿½ï¿½×ª×´Ì¬
 
 
-/* ¶¨Òå¿ØÖÆIOµÄºê */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½IOï¿½Äºï¿½ */
 #define LED1_TOGGLE		 digitalToggle(LED1_GPIO_PORT,LED1_GPIO_PIN)
 #define LED1_OFF		   digitalHi(LED1_GPIO_PORT,LED1_GPIO_PIN)
 #define LED1_ON			   digitalLo(LED1_GPIO_PORT,LED1_GPIO_PIN)

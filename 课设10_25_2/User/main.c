@@ -14,16 +14,16 @@ int main(void)
 	GENERAL_TIM_Init();		//定时器初始化
 	EXTI_Key_Config(); 		//按键初始化	
 
+	TUBE0;TTUBE1;
+
 	while (1)
 	{
-		// if ( time == 500 ) /* 1000 * 1 ms = 1s 时间到 */
-		// {
-		// 	time = 0;
-		// 	/* LED1 取反 */      
-		// 	LED1_TOGGLE; 
-		// }   
-		Display_HELP();
-	// 	// Integer_Display(1234);
+		LED1(ON);
+		SOFT_DELAY;
+		LED1(OFF);
+		SOFT_DELAY;
+		// Display_HELP();
+		// Integer_Display(1234);
 	}
 }
 

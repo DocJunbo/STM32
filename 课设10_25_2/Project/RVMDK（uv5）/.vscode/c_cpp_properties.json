@@ -3,20 +3,20 @@
         {
             "name": "Led",
             "includePath": [
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\Libraries\\CMSIS",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\User",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\Libraries\\FWlib\\inc",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\User\\led",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\User\\Show",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\User\\GeneralTim",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\User\\Key",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\Libraries\\CMSIS",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\User",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\Libraries\\FWlib\\inc",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\User\\led",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\12-GPIO输出—使用固件库点亮LED灯",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\User\\Show",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\User\\GeneralTim",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\User\\Key",
                 "E:\\Explore\\Keil5\\ARM\\ARMCC\\include",
                 "E:\\Explore\\Keil5\\ARM\\ARMCC\\include\\rw",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\Libraries\\CMSIS\\startup",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\Libraries\\FWlib\\src",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\User\\Led",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\Doc"
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\Libraries\\CMSIS\\startup",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\Libraries\\FWlib\\src",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\User\\Led",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\Doc"
             ],
             "defines": [
                 "STM32F10X_HD",
@@ -99,19 +99,19 @@
         {
             "name": "Show",
             "includePath": [
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\Libraries\\CMSIS",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\User",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\Libraries\\FWlib\\inc",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\User\\led",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\Libraries\\CMSIS",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\User",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\Libraries\\FWlib\\inc",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\User\\led",
                 "E:\\Explore\\Keil5\\ARM\\ARMCC\\include",
                 "E:\\Explore\\Keil5\\ARM\\ARMCC\\include\\rw",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\Libraries\\CMSIS\\startup",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\Libraries\\FWlib\\src",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\User\\Led",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\User\\Show",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\User\\GeneralTim",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\User\\Key",
-                "c:\\Users\\20200\\Desktop\\STM32_Make\\12-GPIO输出—使用固件库点亮LED灯\\Doc"
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\Libraries\\CMSIS\\startup",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\Libraries\\FWlib\\src",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\User\\Led",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\User\\Show",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\User\\GeneralTim",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\User\\Key",
+                "c:\\Users\\20200\\Desktop\\Code\\STM32\\课设10_25_2\\Doc"
             ],
             "defines": [
                 "STM32F10X_HD",
